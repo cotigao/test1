@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building11234..'
+                echo 'Build Jeremy'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing22344..'
+                echo 'Test Omnikant'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying3348....'
+                echo 'Deploy Chagan'
             }
         }
     }
