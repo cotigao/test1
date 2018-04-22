@@ -3,10 +3,8 @@ pipeline {
     stages {
         stage ('Checkout') {
             steps {
-                checkout scm
-            }
-            steps {
-                bash ./check.sh
+                sh """
+                #!/bin/bash"""
             }
         }
         stage('Build') {
