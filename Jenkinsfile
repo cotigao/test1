@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh """
                 #!/bin/bash
-                apt-get install ansible"""
+                apt-get install -y ansible"""
             }
         }
         stage ('Checkout') {
