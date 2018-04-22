@@ -6,7 +6,7 @@ pipeline {
                 checkout scm
             }
             steps {
-                ./check.sh
+                bash ./check.sh
             }
         }
         stage('Build') {
