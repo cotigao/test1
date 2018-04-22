@@ -1,5 +1,11 @@
 ---
-- hosts: all
+- hosts: servers
   gather_facts:  true
   tasks:
     - ping:
+    - git:
+        repo: ssh://git@github.com/cotigao/test1.git
+        dest: /home/ubuntu/dags
+        force: yes
+        depth: 1
+        accept_hostkey: yes
