@@ -1,6 +1,13 @@
 pipeline {
     agent any
     stages {
+        stage ('Setup') {
+            steps {
+                sh """
+                #!/bin/bash
+                apt-get install ansible"""
+            }
+        }
         stage ('Checkout') {
             steps {
                 sh """
