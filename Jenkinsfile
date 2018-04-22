@@ -4,6 +4,8 @@ pipeline {
         stage ('Checkout') {
             steps {
                 checkout scm
+            }
+            steps {
                 ./check.sh
             }
         }
