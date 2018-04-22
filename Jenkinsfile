@@ -8,17 +8,12 @@ pipeline {
                 apt-get install -y ansible"""
             }
         }
-        stage ('Checkout') {
+        stage ('Deploy') {
             steps {
                 sh """
                 #!/bin/bash
-                date
-                git diff --name-only HEAD^..HEAD"""
-            }
-        }
-        stage('Build') {
-            steps {
-                sh 'echo "Hello world!"'
+                ***REMOVED*** -i ansible/hosts.ini ansible/playbook.yaml 
+                """
             }
         }
     }
