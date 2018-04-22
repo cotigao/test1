@@ -12,7 +12,7 @@ pipeline {
             steps {
                 sh """
                 #!/bin/bash
-                ***REMOVED*** -i ansible/hosts.ini ansible/playbook.yaml 
+                ansible-playbook -i ansible/hosts.ini ansible/playbook.yaml 
                 """
             }
         }
