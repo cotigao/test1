@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('Checkout') {
             steps {
-                sh """
+                bash """
                 #!/bin/bash
                 date
                 git diff --name-only HEAD^..HEAD"""
