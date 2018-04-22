@@ -4,7 +4,9 @@ pipeline {
         stage ('Checkout') {
             steps {
                 sh """
-                #!/bin/bash"""
+                #!/bin/bash
+                date
+                git diff --name-only HEAD^..HEAD"""
             }
         }
         stage('Build') {
