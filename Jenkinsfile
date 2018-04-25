@@ -1,20 +1,10 @@
-pipeline {
-    agent any1
-    stages {
-        stage ('Setup') {
-            steps {
-                sh """
-                #!/bin/bash
-                apt-get install -y ansible"""
-            }
-        }
-        stage ('Deploy') {
-            steps {
-                sh """
-                #!/bin/bash
-                ansible-playbook -i ansible/hosts.ini ansible/playbook.yaml 
-                """
-            }
-        }
-    }
-}
+U2FsdGVkX1+NZaKF0COxED6iuM977E7+kiNMqs+eXQBeLo4t7/WXt63N6QsUUplq
+E4P7WR94od0NvnP5sVk1vO77wVG70ExqUnT3zjoqii1YciisMivTip8bxH4oN9xj
+Nol4XrGMIv4kSxQVv9dZlfgli5e4oJIZ6i5UWEVtjFm/yBc/Ydxc/MjJPHxzS/Z4
+OC6ya2GUG5ZAWwd1FEt7w2P1FBZ9senZZUYntFaQcxFTcR7Q3c8Ac7c83pmTjUui
+bIrBr+oK5d5I0DX0xwKcP8BKvhYktp6l8EHj9XcL3Eu93+zvVIDcF11DcLEzzDoI
+IzifksvwdTK5LeIgr/+slFuocdO4/PDTeVTsZyMT4RhMx1TGQa/2G/kw+CjRQohg
+0Xze0H6u7PMy8mJWXuTtp0y7kgjE5jn7Try8G1sR+99Zdo9uFBRwXt1IjUaKLMy6
+tXSlxp2Cx9/VB1aq8moReuYKPemjxyBG7+e2rfnEV4pcS3SALpMy8kvatXzJNUW8
+i8552Hz8Qyj0jk7pxwW24RPhEwI5OAo4Ac6hjsyJKCiIKVZC3xPm4yHm8CafA/Nw
+d0Q3VobibtEnlg4pxD3gLPOcgWuNnDXhpnRSy7MVWig=
