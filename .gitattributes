@@ -1,3 +1,4 @@
 secrets filter=crypt diff=crypt
 abc/kalalal_papapa/jajaja_nanana/laoalal_kakaka/jajaja_cccc/config.json filter=crypt diff=crypt
 betup/ketup/nice.json filter=crypt diff=crypt
+betup/cool/nice.json filter=crypt diff=crypt
